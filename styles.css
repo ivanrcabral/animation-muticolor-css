@@ -1,0 +1,35 @@
+body {
+  background-color: white;
+  padding-top: 100px;
+}
+.text-center {
+  text-align: center;
+}
+.mylink {
+  color: #00d9ff;
+  font-size: 2rem;
+  font-family: sans-serif;
+  cursor: pointer;
+  animation: myanimation 3s infinite;
+  transition: 0.7s all;
+}
+.mylink:hover {
+  font-size: 2.8rem;
+}
+@keyframes myanimation {
+  0% {
+    color: #00d9ff;
+  }
+  25% {
+    color: #f10000;
+  }
+  50% {
+    color: #ffd000;
+  }
+  75% {
+    color: #00f12a;
+  }
+  100% {
+    color: #00d9ff;
+  }
+}
